@@ -1,9 +1,0 @@
-use crate::*;
-use pallet_utility::Config;
-
-impl Config for Runtime {
-	type Event = Event;
-	type Call = Call;
-	type PalletsOrigin = OriginCaller;
-	type WeightInfo = pallet_utility::weights::SubstrateWeight<Runtime>;
-}

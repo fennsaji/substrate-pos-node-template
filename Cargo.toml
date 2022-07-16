@@ -1,8 +1,12 @@
 [workspace]
 members = [
-    "node",
-    "pallets/template",
+    "bench",
+    "cli",
+    "inspect",
+    "primitives",
+    "rpc",
     "runtime",
+    "testing"
 ]
 [profile.release]
 panic = "unwind"
