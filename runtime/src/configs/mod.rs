@@ -1,6 +1,8 @@
 pub mod system;
 pub use system::*;
 
+pub use babe;
+
 pub mod proxy;
 pub use proxy::*;
 
