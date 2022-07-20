@@ -10,6 +10,8 @@ pub mod utility;
 
 pub mod multisig;
 
+pub mod scheduler;
+
 pub mod balances;
 
 pub mod indices;
