@@ -20,3 +20,5 @@ pub mod preimage;
 
 pub mod transaction_payment;
 
+pub mod asset_tx_payment;
+
