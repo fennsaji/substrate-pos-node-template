@@ -16,3 +16,7 @@ pub mod balances;
 
 pub mod indices;
 
+pub mod preimage;
+
+pub mod transaction_payment;
+
