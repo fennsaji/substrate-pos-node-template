@@ -30,3 +30,6 @@ pub mod authorship;
 pub use authorship::*;
 
 pub mod session;
+
+pub mod staking;
+pub use staking::*;
