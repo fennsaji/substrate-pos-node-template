@@ -203,18 +203,6 @@ impl pallet_babe::Config for Runtime {
 	type MaxAuthorities = MaxAuthorities;
 }
 
-
-parameter_types! {
-	pub const BagThresholds: &'static [u64] = &voter_bags::THRESHOLDS;
-}
-
-impl pallet_bags_list::Config for Runtime {
-	type Event = Event;
-	type VoteWeightProvider = Staking;
-	type WeightInfo = pallet_bags_list::weights::SubstrateWeight<Runtime>;
-	type BagThresholds = BagThresholds;
-}
-
 parameter_types! {
 	pub const VoteLockingPeriod: BlockNumber = 30 * DAYS;
 }

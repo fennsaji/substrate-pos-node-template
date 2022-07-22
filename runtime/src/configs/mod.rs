@@ -36,3 +36,5 @@ pub use staking::*;
 
 pub mod election;
 pub use election::*;
+
+pub mod bags_list;
