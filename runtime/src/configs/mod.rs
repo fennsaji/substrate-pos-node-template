@@ -44,3 +44,6 @@ pub mod conviction_voting;
 pub mod referenda;
 
 pub mod democracy;
+
+pub mod collective;
+pub use collective::*;
