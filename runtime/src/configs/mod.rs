@@ -42,3 +42,5 @@ pub mod bags_list;
 pub mod conviction_voting;
 
 pub mod referenda;
+
+pub mod democracy;
