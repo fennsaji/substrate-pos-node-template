@@ -40,5 +40,5 @@ pub use election::*;
 pub mod bags_list;
 
 pub mod conviction_voting;
-pub use conviction_voting::*;
 
+pub mod referenda;
