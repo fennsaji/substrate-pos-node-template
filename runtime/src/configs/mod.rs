@@ -49,3 +49,5 @@ pub mod collective;
 pub use collective::*;
 
 pub mod elections_phragmen;
+
+pub mod membership;
