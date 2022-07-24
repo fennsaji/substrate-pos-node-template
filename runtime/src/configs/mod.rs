@@ -51,3 +51,6 @@ pub use collective::*;
 pub mod elections_phragmen;
 
 pub mod membership;
+
+pub mod treasury;
+pub use treasury::*;
