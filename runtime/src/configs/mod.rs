@@ -58,3 +58,5 @@ pub use treasury::*;
 pub mod bounties;
 
 pub mod child_bounties;
+
+pub mod tips;
