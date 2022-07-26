@@ -205,14 +205,6 @@ impl pallet_babe::Config for Runtime {
 	type MaxAuthorities = MaxAuthorities;
 }
 
-impl pallet_child_bounties::Config for Runtime {
-	type Event = Event;
-	type MaxActiveChildBountyCount = MaxActiveChildBountyCount;
-	type ChildBountyValueMinimum = ChildBountyValueMinimum;
-	type ChildBountyCuratorDepositBase = ChildBountyCuratorDepositBase;
-	type WeightInfo = pallet_child_bounties::weights::SubstrateWeight<Runtime>;
-}
-
 impl pallet_tips::Config for Runtime {
 	type Event = Event;
 	type DataDepositPerByte = DataDepositPerByte;
