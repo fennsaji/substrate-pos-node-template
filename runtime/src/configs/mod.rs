@@ -54,3 +54,5 @@ pub mod membership;
 
 pub mod treasury;
 pub use treasury::*;
+
+pub mod bounties;
