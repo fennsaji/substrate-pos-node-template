@@ -62,3 +62,5 @@ pub mod child_bounties;
 pub mod tips;
 
 pub mod contracts;
+
+pub mod sudo;
