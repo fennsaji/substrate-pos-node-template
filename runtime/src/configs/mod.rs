@@ -64,3 +64,5 @@ pub mod tips;
 pub mod contracts;
 
 pub mod sudo;
+
+pub mod offences;
