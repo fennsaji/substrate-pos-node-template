@@ -66,3 +66,5 @@ pub mod contracts;
 pub mod sudo;
 
 pub mod offences;
+
+pub mod authority_discovery;
