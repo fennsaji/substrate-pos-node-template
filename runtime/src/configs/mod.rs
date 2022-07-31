@@ -70,3 +70,5 @@ pub mod offences;
 pub mod authority_discovery;
 
 pub mod identity;
+
+pub mod recovery;
