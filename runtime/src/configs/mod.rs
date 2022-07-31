@@ -72,3 +72,5 @@ pub mod authority_discovery;
 pub mod identity;
 
 pub mod recovery;
+
+pub mod society;
