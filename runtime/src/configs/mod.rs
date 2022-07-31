@@ -74,3 +74,5 @@ pub mod identity;
 pub mod recovery;
 
 pub mod society;
+
+pub mod vesting;
