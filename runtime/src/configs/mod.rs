@@ -76,3 +76,5 @@ pub mod recovery;
 pub mod society;
 
 pub mod vesting;
+
+pub mod mmr;
