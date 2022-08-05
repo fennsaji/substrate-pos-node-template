@@ -80,3 +80,6 @@ pub mod vesting;
 pub mod mmr;
 
 pub mod lottery;
+
+pub mod assets;
+pub use assets::*;
