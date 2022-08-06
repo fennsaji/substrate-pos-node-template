@@ -85,3 +85,5 @@ pub mod assets;
 pub use assets::*;
 
 pub mod gilt;
+
+pub mod uniques;
