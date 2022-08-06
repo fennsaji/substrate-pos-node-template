@@ -87,3 +87,5 @@ pub use assets::*;
 pub mod gilt;
 
 pub mod uniques;
+
+pub mod transaction_storage;

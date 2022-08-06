@@ -307,14 +307,6 @@ impl pallet_grandpa::Config for Runtime {
 	type MaxAuthorities = MaxAuthorities;
 }
 
-impl pallet_transaction_storage::Config for Runtime {
-	type Event = Event;
-	type Currency = Balances;
-	type Call = Call;
-	type FeeDestination = ();
-	type WeightInfo = pallet_transaction_storage::weights::SubstrateWeight<Runtime>;
-}
-
 impl pallet_whitelist::Config for Runtime {
 	type Event = Event;
 	type Call = Call;
