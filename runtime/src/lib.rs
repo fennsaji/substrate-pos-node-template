@@ -307,15 +307,6 @@ impl pallet_grandpa::Config for Runtime {
 	type MaxAuthorities = MaxAuthorities;
 }
 
-impl pallet_whitelist::Config for Runtime {
-	type Event = Event;
-	type Call = Call;
-	type WhitelistOrigin = EnsureRoot<AccountId>;
-	type DispatchWhitelistedOrigin = EnsureRoot<AccountId>;
-	type PreimageProvider = Preimage;
-	type WeightInfo = pallet_whitelist::weights::SubstrateWeight<Runtime>;
-}
-
 parameter_types! {
 	pub const SignedMigrationMaxLimits: pallet_state_trie_migration::MigrationLimits =
 		pallet_state_trie_migration::MigrationLimits { size: 1024 * 1024 / 2, item: 512 };

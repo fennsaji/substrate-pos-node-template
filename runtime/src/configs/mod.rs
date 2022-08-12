@@ -89,3 +89,5 @@ pub mod gilt;
 pub mod uniques;
 
 pub mod transaction_storage;
+
+pub mod whitelist;
