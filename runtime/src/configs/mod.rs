@@ -1,6 +1,9 @@
 pub mod system;
 pub use system::*;
 
+pub mod grandpa;
+pub use grandpa::*;
+
 pub mod proxy;
 pub use proxy::*;
 
