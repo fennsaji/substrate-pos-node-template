@@ -91,3 +91,5 @@ pub mod uniques;
 pub mod transaction_storage;
 
 pub mod whitelist;
+
+pub mod state_trie_migration;
