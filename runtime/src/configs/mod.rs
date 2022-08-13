@@ -96,3 +96,6 @@ pub mod transaction_storage;
 pub mod whitelist;
 
 pub mod state_trie_migration;
+
+pub mod im_online;
+pub use im_online::*;
